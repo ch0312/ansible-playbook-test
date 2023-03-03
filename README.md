@@ -6,3 +6,7 @@ Ansibleの動作確認用のサンプルplaybook。
 - inventories/staging/hosts：ansible_hostに設定するIPを変更
 - inventories/production/group_vars/all.yml：SSH用のユーザ(ansible_ssh_user)、パスワード(ansible_ssh_pass)を変更
 - inventories/staging/group_vars/all.yml：SSH用のユーザ(ansible_ssh_user)、パスワード(ansible_ssh_pass)を変更
+
+## 実行例
+$ ansible-playbook -i inventories/production/hosts site.yml  
+$ ansible-playbook -i inventories/staging/hosts site.yml
