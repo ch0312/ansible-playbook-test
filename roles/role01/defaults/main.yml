@@ -1,0 +1,2 @@
+---
+role01_test_var_role: "variable defined in roles/role01/defaults/main.yml"

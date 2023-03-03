@@ -1,0 +1,6 @@
+[test_group_a]
+test-prd-001 ansible_host=192.168.10.1
+test-prd-002 ansible_host=192.168.10.2
+
+[test_group_b]
+test-prd-003 ansible_host=192.168.10.3

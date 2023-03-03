@@ -1,0 +1,2 @@
+---
+test_var_host: "variable defined in inventories/production/host_vars/test-prd-003.yml"

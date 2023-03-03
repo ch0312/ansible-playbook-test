@@ -1,0 +1,2 @@
+---
+test_var_group: "variable defined in inventories/production/group_vars/test_group_b.yml"

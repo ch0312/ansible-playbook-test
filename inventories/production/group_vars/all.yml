@@ -1,0 +1,4 @@
+---
+ansible_ssh_user: root
+ansible_ssh_pass: password
+test_var_allgroup: "variable defined in inventories/production/group_vars/all.yml"
