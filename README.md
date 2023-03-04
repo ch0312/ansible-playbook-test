@@ -8,5 +8,7 @@ Ansibleの動作確認用のサンプルplaybook。
 - inventories/staging/group_vars/all.yml：SSH用のユーザ(ansible_ssh_user)、パスワード(ansible_ssh_pass)を変更
 
 ## 実行例
+### 商用環境
 $ ansible-playbook -i inventories/production/hosts site.yml  
+### ステージング環境
 $ ansible-playbook -i inventories/staging/hosts site.yml
