@@ -7,6 +7,10 @@ Ansibleの動作確認用のサンプルplaybook。
 - inventories/production/group_vars/all.yml：SSH用のユーザ(ansible_ssh_user)、パスワード(ansible_ssh_pass)を変更
 - inventories/staging/group_vars/all.yml：SSH用のユーザ(ansible_ssh_user)、パスワード(ansible_ssh_pass)を変更
 
+## 動作確認済みバージョン
+- ansible：7.3.0
+- ansible-core：2.14.3
+
 ## ディレクトリ構成
 ```
 ansible
